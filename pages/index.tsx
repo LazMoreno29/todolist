@@ -1,3 +1,14 @@
+import { ToDoForm } from '../components/ToDoForm';
+
 export default function Home() {
-  return <></>;
+  return (
+    <>
+      <section className='toDOListWrapper'>
+        <div className='toDoListContainer'>
+          <h1>To-Do-List</h1>
+          <ToDoForm />
+        </div>
+      </section>
+    </>
+  );
 }
